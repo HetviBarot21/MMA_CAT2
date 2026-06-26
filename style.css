@@ -153,38 +153,8 @@ main {
 
 .controls-row {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 0.75rem;
   margin-top: 1.25rem;
-}
-
-#skipBackBtn,
-#skipForwardBtn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  padding: 0.65rem 1rem;
-  font-family: var(--font-body);
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--forest);
-  background-color: transparent;
-  border: 1.5px solid var(--line);
-  border-radius: 999px;
-  cursor: pointer;
-  transition: background-color 0.18s ease, border-color 0.18s ease;
-}
-
-#skipBackBtn:hover,
-#skipForwardBtn:hover {
-  background-color: var(--sand);
-  border-color: var(--forest);
-}
-
-#skipBackBtn .btn-icon,
-#skipForwardBtn .btn-icon {
-  font-size: 1rem;
 }
 
 #toggleBtn {
@@ -260,19 +230,8 @@ main {
     border-radius: 10px;
   }
 
-  .controls-row {
-    flex-wrap: wrap;
-  }
-
   #toggleBtn {
-    order: -1;
     width: 100%;
-    justify-content: center;
-  }
-
-  #skipBackBtn,
-  #skipForwardBtn {
-    flex: 1;
     justify-content: center;
   }
 
